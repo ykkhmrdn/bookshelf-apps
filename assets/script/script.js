@@ -5,7 +5,7 @@ const addBook = (title, author, year, isComplete) => {
     id: +new Date(),
     title: title,
     author: author,
-    year: year,
+    year: parseInt(year),
     isComplete: isComplete,
   };
 
